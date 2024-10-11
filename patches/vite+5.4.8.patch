@@ -1,0 +1,13 @@
+diff --git a/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js b/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js
+index e853064..a141ca5 100644
+--- a/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js
++++ b/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js
+@@ -37908,7 +37908,7 @@ const preprocessorSet = /* @__PURE__ */ new Set([
+ function isPreProcessor(lang) {
+   return lang && preprocessorSet.has(lang);
+ }
+-const importLightningCSS = createCachedImport(() => import('lightningcss'));
++const importLightningCSS = createCachedImport(() => import('lightningcss').catch(()=>{}));
+ async function compileLightningCSS(id, src, config, urlReplacer) {
+   const deps = /* @__PURE__ */ new Set();
+   const filename = cleanUrl(path$n.relative(config.root, id));

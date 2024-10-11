@@ -1,0 +1,15 @@
+{
+    "light": {
+      "style": "black",
+      "color": "#181818",
+      "selectedColor": "#FF861D",
+      "bgColor": "#ffffff"
+    },
+    "dark": {
+      "style": "white",
+      "color": "#ffffff",
+      "selectedColor": "#FF861D",
+      "bgColor": "#181818"
+    }
+  }
+  
